@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoreNLP</title>
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="stylesC.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content-box {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(2, 2, 2, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .content {
+            background-color: rgb(240, 238, 238);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            text-align: center;
+        }
+
+        .visit-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .visit-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<header>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://videos.pexels.com/video-files/7566042/7566042-hd_1366_720_25fps.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+</header>
+
+<body>
+    <nav class="navbar">
+        <div class="logo inverted-text">AI Deck</div>
+        <ul>
+            <li><a href="home.html" class="inverted-text">Home</a></li>
+            <li><a href="categories.html" class="inverted-text">Categories</a></li>
+            <li><a href="all-tools.html" class="inverted-text">All Tools</a></li>
+            <li><a href="About Us.html" class="inverted-text">About Us</a></li>
+            <li><a href="login.html" class="login-btn inverted-text">Log In</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content-box">
+            <div class="content">
+                <h1><b>CoreNLP</b></h1>
+                <h2>Advanced Natural Language Processing with CoreNLP</h2>
+                <p><b>FEATURES</b></p>
+                <p><strong>Part-of-Speech Tagging:</strong> <i>Identify the parts of speech in your text data with high accuracy using CoreNLP's POS tagging tools.</i></p>
+                <p><strong>Named Entity Recognition:</strong> <i>Extract entities like names, dates, and locations from your text data.</i></p>
+                <p><strong>Dependency Parsing:</strong> <i>Understand the grammatical structure of your sentences with CoreNLP's dependency parsing tools.</i></p>
+                <p><b>APPLICATIONS</b></p>
+                <p><strong>Text Summarization:</strong> <i>Create concise summaries of large text documents.</i></p>
+                <p><strong>Question Answering:</strong> <i>Develop systems that can answer questions based on text data.</i></p>
+                <p><strong>Machine Translation:</strong> <i>Improve translation accuracy by leveraging CoreNLP's advanced linguistic analysis.</i></p>
+                <p><b>BENEFITS</b></p>
+                <p><strong>Comprehensive:</strong> <i>CoreNLP offers a wide range of NLP tools in a single package.</i></p>
+                <p><strong>Customizable:</strong> <i>Tailor CoreNLP's tools to meet your specific needs.</i></p>
+                <p><strong>Open Source:</strong> <i>Leverage the power of an open-source community and continuous updates.</i></p>
+                <a href="https://stanfordnlp.github.io/CoreNLP/" class="visit-button">Visit Site</a>
+            </div>
+        </div>
+    </main>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

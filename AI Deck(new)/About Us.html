@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI</title>
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="stylesC.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content-box {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            margin-top: 50px;
+        }
+
+        .content {
+            background-color: rgb(240, 238, 238);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            text-align: center;
+        }
+
+        .visit-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .visit-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<header>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://videos.pexels.com/video-files/7566042/7566042-hd_1366_720_25fps.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+</header>
+
+<body>
+    <nav class="navbar">
+        <div class="logo inverted-text">AI Deck</div>
+        <ul>
+            <li><a href="home.html" class="inverted-text">Home</a></li>
+            <li><a href="categories.html" class="inverted-text">Categories</a></li>
+            <li><a href="all-tools.html" class="inverted-text">All Tools</a></li>
+            <li><a href="About Us.html" class="inverted-text">About Us</a></li>
+            <li><a href="login.html" class="login-btn inverted-text">Log In</a></li>
+        </ul>
+    </nav>
+    <main>
+     <div class="content-box">
+          <div class="content">
+              <h1>About Us</h1>
+              <h2>Welcome to Our AI Tool Exploration Platform</h2>
+              <p>We are R. Karthikeya and K. Mohana Venkata Krishna, second semester B.Tech students specializing in Computer Science and Engineering with a focus on Artificial Intelligence at Amrita College, Coimbatore.</p>
+              <p>This website is a part of our UI project, reviewed by our Assistant Professor C. Priyanka Ma'am . Our goal is to create a comprehensive platform that showcases various AI and NLP tools, providing detailed insights into their features, applications, and benefits.</p>
+              <h2>Our Mission</h2>
+              <p>Our mission is to simplify the understanding and application of AI tools for students, researchers, and professionals. By providing detailed descriptions and practical information about each tool, we aim to bridge the gap between theoretical knowledge and real-world application.</p>
+              <h2>What We Offer</h2>
+              <p>Our website offers:</p>
+
+                  <li><strong>Detailed Tool Descriptions:</strong> In-depth information about various AI and NLP tools, including their features, applications, and benefits.</li>
+                  <li><strong>Educational Resources:</strong> Resources to help users understand the practical applications of AI tools in different domains.</li>
+                  <li><strong>User-Friendly Interface:</strong> An intuitive and easy-to-navigate interface to enhance user experience.</li>
+             
+              <h2>Get in Touch</h2>
+              <p>If you have any questions or feedback, please feel free to reach out to us. We are always eager to hear from fellow AI enthusiasts and learners.</p>
+              <a href="Contact.html" class="visit-button">Contact Us</a>
+          </div>
+      </div>
+    </main>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

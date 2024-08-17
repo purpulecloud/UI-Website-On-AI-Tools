@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenAI</title>
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="stylesC.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content-box {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(2, 2, 2, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .content {
+            background-color: rgb(240, 238, 238);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            text-align: center;
+        }
+
+        .visit-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .visit-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<header>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://videos.pexels.com/video-files/7566042/7566042-hd_1366_720_25fps.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+</header>
+
+<body>
+    <nav class="navbar">
+        <div class="logo inverted-text">AI Deck</div>
+        <ul>
+            <li><a href="home.html" class="inverted-text">Home</a></li>
+            <li><a href="categories.html" class="inverted-text">Categories</a></li>
+            <li><a href="all-tools.html" class="inverted-text">All Tools</a></li>
+            <li><a href="About Us.html" class="inverted-text">About Us</a></li>
+            <li><a href="login.html" class="login-btn inverted-text">Log In</a></li>
+        </ul>
+    </nav>
+    <main>
+     <div class="content-box">
+          <div class="content">
+              <h1><b>About OpenAI</b></h1>
+              <h2>Advancing Artificial Intelligence for the Benefit of Humanity</h2>
+              <p><b>MISSION</b></p>
+              <p>OpenAI's mission is to ensure that artificial general intelligence (AGI)—AI that is as capable as humans across a wide range of tasks—benefits all of humanity.</p>
+              <p><b>RESEARCH</b></p>
+              <p>OpenAI conducts cutting-edge research in machine learning and AI to develop state-of-the-art models and technologies. Their research spans areas such as natural language processing, computer vision, reinforcement learning, and more.</p>
+              <p><b>PROJECTS</b></p>
+              <p>OpenAI has developed various groundbreaking projects, including:</p>
+                  <li><strong>GPT (Generative Pre-trained Transformer)</strong>: A series of language models capable of generating human-like text based on the input they receive.</li>
+                  <li><strong>DALL-E</strong>: An AI model capable of generating images from textual descriptions, allowing for creative and novel image synthesis.</li>
+                  <li><strong>OpenAI Gym</strong>: A toolkit for developing and comparing reinforcement learning algorithms.</li>
+
+              <p><b>COLLABORATIONS</b></p>
+              <p>OpenAI collaborates with various organizations, researchers, and institutions around the world to advance the field of artificial intelligence and ensure responsible AI development.</p>
+              <a href="https://openai.com" class="visit-button">Visit OpenAI</a>
+          </div>
+      </div>
+    </main>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

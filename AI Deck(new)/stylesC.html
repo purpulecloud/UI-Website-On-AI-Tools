@@ -1,0 +1,74 @@
+/* Center the main content vertically and horizontally */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Make sure main takes full viewport height */
+}
+
+/* Ensure the container takes up full width and centers its content */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the tool-box elements */
+.tool-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px; /* Add some space between toolboxes */
+    text-align: center; /* Center align text */
+}
+
+/* Style for the navigation bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Ensure the logo and navbar items are properly spaced */
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Additional styling for inverted text */
+.inverted-text {
+    color: #fff;
+}
+
+/* Ensure the login button stands out */
+.login-btn {
+    font-weight: bold;
+}
+
+/* General styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+}

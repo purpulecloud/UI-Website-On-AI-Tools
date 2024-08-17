@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindMeld</title>
+    <link rel="icon" href="https://yt3.ggpht.com/a/AGF-l78km1YyNXmF0r3-0CycCA0HLA_i6zYn_8NZEg=s900-c-k-c0xffffffff-no-rj-mo" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="stylesC.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .content-box {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(2, 2, 2, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .content {
+            background-color: rgb(240, 238, 238);
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 80%;
+            text-align: center;
+        }
+
+        .visit-button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .visit-button:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<header>
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="https://videos.pexels.com/video-files/7566042/7566042-hd_1366_720_25fps.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+</header>
+
+<body>
+    <nav class="navbar">
+        <div class="logo inverted-text">AI Deck</div>
+        <ul>
+            <li><a href="home.html" class="inverted-text">Home</a></li>
+            <li><a href="categories.html" class="inverted-text">Categories</a></li>
+            <li><a href="all-tools.html" class="inverted-text">All Tools</a></li>
+            <li><a href="About Us.html" class="inverted-text">About Us</a></li>
+            <li><a href="login.html" class="login-btn inverted-text">Log In</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="content-box">
+            <div class="content">
+                <h1><b>MindMeld</b></h1>
+                <h2>Empowering Conversational AI with MindMeld</h2>
+                <p><b>FEATURES</b></p>
+                <p><strong>Natural Language Understanding:</strong> <i>Build conversational applications that understand user intent and context with MindMeld's advanced NLU capabilities.</i></p>
+                <p><strong>Entity Recognition:</strong> <i>Identify and extract entities such as dates, locations, and names from user queries.</i></p>
+                <p><strong>Dialogue Management:</strong> <i>Create seamless and contextually aware conversations with MindMeld's robust dialogue management tools.</i></p>
+                <p><b>APPLICATIONS</b></p>
+                <p><strong>Virtual Assistants:</strong> <i>Develop intelligent virtual assistants that can handle complex user interactions.</i></p>
+                <p><strong>Customer Support:</strong> <i>Automate customer support with chatbots that understand and resolve customer issues efficiently.</i></p>
+                <p><strong>Voice Interfaces:</strong> <i>Integrate voice interfaces into your applications to provide hands-free user experiences.</i></p>
+                <p><b>BENEFITS</b></p>
+                <p><strong>Intuitive:</strong> <i>MindMeld's tools are designed to be intuitive and easy to use, even for developers with minimal NLP experience.</i></p>
+                <p><strong>Scalable:</strong> <i>Scale your conversational AI applications to handle large volumes of interactions seamlessly.</i></p>
+                <p><strong>Open Source:</strong> <i>Benefit from the continuous improvements and community support of an open-source platform.</i></p>
+                <a href="https://www.mindmeld.com/" class="visit-button">Visit Site</a>
+            </div>
+        </div>
+    </main>
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

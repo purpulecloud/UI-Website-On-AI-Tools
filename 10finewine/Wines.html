@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Wines</title>
+</head>
+<body>
+     <style>
+          body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+          }
+          header {
+              background-color: hsla(35, 90%, 45%, 0.897);
+              color: rgb(15, 1, 1);
+              text-align: center;
+              padding: 10px;
+          }
+  
+          footer {
+              background-color:hsla(0, 94%, 50%, 0.897);
+              color:  rgb(15, 1, 1);
+              text-align: center;
+              padding: 10px;
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+          }
+  
+          #wines {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-wrap: wrap;
+              padding: 20px;
+          }
+  
+          #wines a {
+              text-decoration: none;
+              margin: 10px;
+              text-align: center;
+              color: #0e0202d7;
+          }
+  
+          .wine-details {
+              margin-top: 10px;
+          }
+          .zoomable-image {
+            transition: transform 0.3s ease;
+          }
+          .zoomed-image {
+            transform: scale(1.5); /* Increase the scale for zoom effect */
+          }
+         .wine-details {
+             text-align: center;
+          }
+         
+         body {
+         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFxo54taCQTvJMCEXn9T94pztLCorrOVtNsQ&s');
+        }
+        body {
+        color: rgb(255, 255, 255); 
+        }
+      
+</style>
+      </style>
+
+      <header>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9Us-KOUSwjZfiJF3BwMZmCuBehYKMlJGmXAJTo7o1cxSYAGwcIuPFz2zwA12MvZw0fYs&usqp=CAU" alt="Logo" width="200">
+          <h3><i><p style="color: rgb(23, 1, 1);"Ferrari></i></h3>
+      </header>
+
+     <section id="wines" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+          <p><i>Familia Torres is a renowned Spanish wine producer with a rich heritage spanning over 150 years.
+             Based in Catalonia, Spain, the family-owned company is globally recognized for its commitment to quality winemaking,
+              sustainable practices, and innovation. Their portfolio includes a diverse range of wines, 
+              from traditional Spanish varieties to international classics, reflecting their dedication to both tradition and modernity in the world of winemaking.</i></p>
+          <br>
+          <a href="https://www.torres.es/en/wines/familia-torres/mas-la-plana" target="_blank" style="text-decoration: none;" >
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/MASlaPLANA_1500x1500px.png?itok=G7VVGfNh" alt="Wine 1"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Mas La Plana</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Penedès</i></p> 
+                   <p><i>Turons de Vilafranca</i></p>
+                   <p>82,00€/ud</p>
+              </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/mas-la-plana" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-07/MILMANDA%202020_1500x1500px%20%281%29_0.png?itok=bwCyaKBx" alt="Wine 2"class="zoomable-image" 
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              
+              <div class="wine-details"style="color: white;">
+                  <h3>Milmanda</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Conca de Barberà</i></p>
+                  <p>Click on the image for more</p> 
+              </div>
+          </a>     
+          <a href="https://www.torres.es/en/wines/familia-torres/grans-muralles" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/GransMuralles_1500x1500_72.png?itok=9HGyGE48" alt="Wine 3"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Grans Muralles</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Conca de Barberà</i></p>
+                  <p>Click on the image for more</p> 
+              </div>
+          </a>
+          <br>
+          <a href="https://www.torres.es/en/wines/familia-torres/reserva-real" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/ReservaReal_1500x1500_72.png?itok=oP3k9R6L" alt="Wine 4"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Reserva Real</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Penedès</i></p> 
+                  <p>Click on the image for more</p>
+              </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/mas-de-la-rosa" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/MASdelaROSA_1500x1500px.png?itok=EYq1B4rF" alt="Wine 5"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Mas de la Rosa</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DOQ Prirat</i></p> 
+                  <p>Click on the image for more</p>
+              </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/clos-ancestral" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/CLOS_ANCESTRAL_1500x1500px.png?itok=1cQr4hQR" alt="Wine 6"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Clos Ancestral</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Penedès</i></p> 
+                  <p>Click on the image for more</p>
+              </div>
+          </a>
+          <br>
+          <a href="https://www.torres.es/en/wines/familia-torres/perpetual" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/PERPETUAL_1500x1500px.png?itok=6wSz-GPx" alt="Wine 7"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Perpetual</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DOQ Priorat</i></p> 
+                  <p>Click on the image for more</p>
+              </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/clos-ancestral-white" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2023-04/CLOS%20ANCESTRAL%202021_1500x1500px.png?itok=vjU24IGo" alt="Wine 8"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Clos Ancestral White</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Penedès</i></p> 
+                  <p>Click on the image for more</p>
+              </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/vinyarets-blanco" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/VINYARETS_BLANCO_1500x1500px.png?itok=oR1kcbxr" alt="Wine 9"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Vinyarets Blanco</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Penedès</i></p> 
+                  <p>Click on the image for more</p>
+              </div>
+          </a>
+          <br>
+          <a href="https://www.torres.es/en/wines/familia-torres/sons-de-prades" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2023-03/SONSdePRADES_1500x1500px_0.png?itok=rMyqhQB_" alt="Wine 10"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                  <h3>Sons de Prades</h3>
+                  <p>Familia Torres</p>
+                  <p><i>DO Conca de Barberà</i></p> 
+                  <p>Click on the image for more</p>
+              </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/waltraud" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2023-03/WALTRAUD_1500x1500px.png?itok=rz3AATtk" alt="Wine 11"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                <h3>Waltraud</h3>
+                <p>Familia Torres</p>
+                <p><i>DO Penedès</i></p> 
+                <p><i>Alts d'Ancosa</i></p>
+                <p>Click on the image for more</p>
+              </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/vinyarets-red" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/VINYARETS_TINTO_1500x1500px.png?itok=qvSgO3bd" alt="Wine 12"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                <h3>Vinyarets Red</h3>
+                <p>Familia Torres</p>
+                <p><i>DO Penedès</i></p> 
+                <p>Click on the image for more</p>
+              </div>
+          </a>
+          <br>
+          <a href="https://www.torres.es/en/wines/familia-torres/salmos" target="_blank" style="text-decoration: none;">
+              <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2023-06/SALMOS%202019_1500x1500px.png?itok=s817ylay" alt="Wine 13"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+              <div class="wine-details"style="color: white;">
+                <h3>Salmos</h3>
+                <p>Familia Torres</p>
+                <p><i>DOQ Priorat</i></p>
+                <p>Click on the image for more</p>
+               </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/purgatori" target="_blank" style="text-decoration: none;">
+             <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2023-03/PURGATORI_1500x1500px.png?itok=ILaPH_7q" alt="Wine 14"class="zoomable-image"
+             onmouseover="this.classList.add('zoomed-image')" 
+             onmouseout="this.classList.remove('zoomed-image')">
+             <div class="wine-details"style="color: white;">
+               <h3>Salmos</h3>
+               <p>Familia Torres</p>
+               <p><i>DO Costers del Segre</i></p>
+               <p>Click on the image for more</p>
+               </div>
+          </a>
+          <a href="https://www.torres.es/en/wines/familia-torres/pirene" target="_blank" style="text-decoration: none;">
+             <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-07/PIRENE%202020_1500x1500px%20%282%29.png?itok=tdPy-ELy" alt="Wine 15"class="zoomable-image"
+             onmouseover="this.classList.add('zoomed-image')" 
+             onmouseout="this.classList.remove('zoomed-image')">
+             <div class="wine-details"style="color: white;">
+               <h3>Pirene</h3>
+               <p>Familia Torres</p>
+               <p>Click on the image for more</p>
+              </div>
+          </a>
+     </section>
+
+    <p>Our Other Wines</p>
+
+   <table style="width: 100%; height: 100vh; table-layout: fixed; border-collapse: collapse;">
+        <tr>
+            <td style="text-align: center;">
+                <header style="background-color: #010113; color: rgb(248, 243, 243);">
+                    <img src="data:image/jpeg;base64,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"alt="Logo" width="250"> 
+                </header>
+            </td>
+        </tr>
+    </table>
+    <section id="wines" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap;">
+        <br>
+        <a href="https://www.torres.es/en/wines/pago-del-cielo/celeste-reserva" target="_blank" style="text-decoration: none;" >
+            <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/CELESTE_RESERVA_1500x1500px.png?itok=uZSuyIjB alt="Wine 1" class="zoomable-image"
+            onmouseover="this.classList.add('zoomed-image')" 
+            onmouseout="this.classList.remove('zoomed-image')">
+            <div class="wine-details"style="color: white;">
+                <h3>Celeste Reserva</h3>
+                <p>Pago del Cielo</p>
+                <p><i>DO Penedès</i></p> 
+                 <p><i>DO Ribera del Duero</i></p>
+                 <p>82,00€/ud</p>
+            </div>
+        </a>
+        <a href="https://www.torres.es/en/wines/pago-del-cielo/celeste-crianza" target="_blank" style="text-decoration: none;">
+            <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/CELESTE_CRIANZA_1500x1500px.png?itok=25As9LPV" alt="Wine 2"class="zoomable-image"
+            onmouseover="this.classList.add('zoomed-image')" 
+            onmouseout="this.classList.remove('zoomed-image')">
+            <div class="wine-details"style="color: white;">
+                <h3>Celeste Crianza</h3>
+                <p>Pago del Cielo</p>
+                <p><i>DO Ribera del Duero</i></p>
+                <p>Click on the image for more</p> 
+            </div>
+        </a>     
+        <a href="https://www.torres.es/en/wines/pago-del-cielo/celeste-roble" target="_blank"style="text-decoration: none;">
+            <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2023-09/CELESTE_ROBLE_1500x1500px.png?itok=kmcIqmWu" alt="Wine 3"class="zoomable-image"
+            onmouseover="this.classList.add('zoomed-image')" 
+            onmouseout="this.classList.remove('zoomed-image')">
+            <div class="wine-details"style="color: white;">
+                <h3>Celeste Roble</h3>
+                <p>Pago del Cielo</p>
+                <p><i>DO Ribera del Duero</i></p>
+                <p>Click on the image for more</p> 
+            </div>
+        </a>
+        <br>
+        <a href="https://www.torres.es/en/wines/pago-del-cielo/celeste-verdejo" target="_blank" style="text-decoration: none;">
+            <img src="https://www.torres.es/sites/default/files/styles/wine_bottle_list_desktop/public/2022-04/CELESTE_VERDEJO_1500x1500px.png?itok=-6qOZzhI" alt="Wine 4"class="zoomable-image"
+            onmouseover="this.classList.add('zoomed-image')" 
+            onmouseout="this.classList.remove('zoomed-image')">
+            <div class="wine-details"style="color: white;">
+                <h3>Celeste Verdejo</h3>
+                <p>Pago del Cielo</p>
+                <p><i>DO Rueda</i></p> 
+                <p>Click on the image for more</p>
+            </div>
+        </a>
+
+</body>
+</html>
+
+    
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10 Fine Wines</title>
+    <!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0c0000;
+        }
+        header {
+            position: relative;
+            background-image: url('https://www.freewebheaders.com/wp-content/gallery/drinks/cache/awesome-liquors-and-beverages-on-bar-shelves-website-header.jpg-nggid045196-ngg0dyn-1280x375x100-00f0w010c010r110f110r010t010.jpg');
+            background-size: cover;
+            color: #ffffff;
+            padding: 10px 20px;
+            text-align: center;
+            width: 1870px;
+            height: 400px;
+        }
+        header span {
+            font-style: italic;
+            color: rgb(242, 236, 236);
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            font-weight: bold; 
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .wine-company {
+            background-color: #060000;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+        .wine-company h2 {
+            margin-top: 0;
+        }
+        .wine-company p {
+            margin-bottom: 10px;
+        }
+        .zoomed-image {
+         transform: scale(1); /* Initial scale */
+         transition: transform 0.5s ease; /* Transition for smooth animation */
+         }
+        .zoomed-image:hover {
+         transform: scale(1.5);
+        }
+        body {
+         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFxo54taCQTvJMCEXn9T94pztLCorrOVtNsQ&s');
+        }
+        body {
+        color: rgb(255, 255, 255); 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <span><h2 style= "font-size: 50px; font-family: 'Arial', sans-serif;">10 Fine Wines</h2></span>
+    </header>
+    <div class="container">
+        <div class="wine-company">
+            <a href="Wines.html" target="blank">
+                <img src="https://www.vinifera-euromaster.eu/wp-content/uploads/2021/07/logo_FamiliaTorres_blanco-1500x833.jpg"alt="Brand 1"width="300" class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+            </a>
+          <h3><p style="color: rgb(243, 239, 239);"FAMILIA TORRES></p></h3>
+            <p>Familia Torres represent a mosaic of properties that are largely historical</p>
+            <p>with winegrowing associations that reach far into the past</p>
+            <p>Vilafranca del Penedès, Spain</p>
+        </div>
+        <div class="wine-company">
+            <a href="https://www.gallo.com/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTi-rrk3m1ABYcp-YkXqBF7qlx3NB2e_qnts5j4UCMww&s" alt="Brand 2"width="300" class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+            </a>
+          <h3><p style="color: rgb(249, 244, 244);"E&J Gallo></p></h3>
+            <p>E & J Gallo Winery is the largest wine producer in the world,</p>
+            <p>producing over 3% of the world's entire annual supply of 35 billion bottles</p> 
+            <p>Leuven, Belgium</p>
+        </div>
+        <div class="wine-company">
+            <a href="https://www.castel-freres.com/" target="_blank">
+                <img src="https://pbs.twimg.com/profile_images/974648677166927872/dgZPJHUu_400x400.jpg"alt="Brand 3" width="200"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+                </a>
+            <h3><p style="color: rgb(249, 244, 244);"Castel Group></p></h3>   
+            <p>Castel is the largest French wine producer and owns</p>
+            <p>the biggest French and foreign wine brands distributed in France</p>
+            <p>Bordeaux, France</p>
+        </div>
+        <div class="wine-company">
+            <a href="https://www.pernod-ricard.com/en" target="_blank">
+            <img src="https://brandlogos.net/wp-content/uploads/2021/12/pernod_ricard-brandlogo.net_.png"alt="Brand 4" width="300"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+            </a>
+            <h3><p style="color: rgb(249, 244, 244);"Pernod Ricard></p></h3>
+            <p> Pernod Ricard althought produces less wine its a famous French multinational company specializing in wines and spirits</p>
+            <p>with a diverse portfolio including brands like Absolut vodka, Jameson whiskey, and Martell cognac</p>
+            <p>Paris, France</p>
+        </div>
+        <div class="wine-company">
+            <a href="https://www.tweglobal.com/" target="_blank">
+            <img src="https://cdn.i.haymarketmedia.asia/?n=campaign-asia%2Fcontent%2FTreasury+Wine+Estates.jpg"alt="Brand 5" width="300"class="zoomable-image"
+              onmouseover="this.classList.add('zoomed-image')" 
+              onmouseout="this.classList.remove('zoomed-image')">
+            </a>
+            <p>Treasury Wine Estates known for its portfolio of premium and luxury wine brands</p>
+            <p>It operates vineyards, wineries, and distribution centers around the world.</p>
+            <p>Melbourne, Australia</p>
+        </div>
+        <div class="wine-company">
+          <a href="https://www.jacksonfamilywines.com/" target="_blank">
+          <img src="https://cdn.courtofmastersommeliers.org/uploads/JFW-2.jpg"alt="Brand 6" width="300"class="zoomable-image"
+          onmouseover="this.classList.add('zoomed-image')" 
+          onmouseout="this.classList.remove('zoomed-image')">
+          </a>
+            <p>Jackson Family Wines is a family-owned wine company Founded by Jess Jackson in 1982,</p>
+            <p>known for its high-quality, estate-grown wines from vineyards around the world</p>
+            <p>California, USA</p>
+        </div>
+        <div class="wine-company">
+          <a href="https://www.thewinegroup.com/" target="_blank">
+          <img src="https://wineindustryadvisor.com/wp-content/uploads/2021/11/WEB-The-Wine-Group-Company-Logo.jpg"alt="Brand 7" width="300"class="zoomable-image"
+          onmouseover="this.classList.add('zoomed-image')" 
+          onmouseout="this.classList.remove('zoomed-image')">
+          </a>
+            <p>The Wine Group is one of the world's largest winth, with a diverse portfolio of brands 
+               catering to various consumer preferences established in 1981 founded by a group of entrepreneurs led by John P. Franzia Sr. </p>
+            <p>California, USA</p>
+        </div>
+        <div class="wine-company">
+          <a href="https://www.antinori.it/en/" target="_blank">
+          <img src="https://lovewine.je/cdn/shop/articles/ANTINORI_BLOG_-_BARREL.jpg?v=1616773893"alt="Brand 8" width="300"class="zoomable-image"
+          onmouseover="this.classList.add('zoomed-image')" 
+          onmouseout="this.classList.remove('zoomed-image')">
+          </a>
+          <p><p>Antinori is a prestigious Italian wine producer with over 600 years of winemaking history,</p> 
+          <p>known for its innovative approach to winemaking and dedication to producing high-quality wines from regions such as Tuscany and Umbria</p></p>
+            <p>Florence, Italy.</p>
+        </div>
+        <div class="wine-company">
+          <a href="https://www.symington.com/" target="_blank">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwMSvGR850hFTfGJ2qqTtWjeA0XfpNsXmwl-noW1SdZsr5Dq4jUX_Dx1knfZtJv2kP0U4&usqp=CAU"alt="Brand 9" width="300"class="zoomable-image"
+          onmouseover="this.classList.add('zoomed-image')" 
+          onmouseout="this.classList.remove('zoomed-image')">
+          </a>
+            <p>Symington Family Estates is a prominent wine producer </p>
+            <p>renowned for its production of premium Port wines and Douro table wines </p> 
+            <p>With a rich heritage dating back over 130 years, the family-owned company owns and operates several renowned Port wine brands and quinta</p>
+            <p>Douro Valley region of northern Portugal</p>
+        </div>
+        <div class="wine-company">
+          <a href="https://m.familleperrin.com/12PCF6YRJ7" target="_blank">
+          <img src="https://lewine.nl/storage/main/sized/fam-perrin-web-1-800x0x0.5x0.5.jpg?1584719949"alt="Brand 10" width="300"class="zoomable-image"
+          onmouseover="this.classList.add('zoomed-image')" 
+          onmouseout="this.classList.remove('zoomed-image')">
+          </a>
+            <p>Famille Perrin is a renowned wine producer based in the Rhône Valley region of France.</p>
+          <p>Founded in 1909, the company is best known for its Château de Beaucastel estate in Châteauneuf-du-Pape, which produces highly regarded red</p> <p>and white wines</p>
+            <p>Village of Orange, in the southern Rhône Valley region of France</p>
+        </div>
+    </div>
+</body>
+</html>
